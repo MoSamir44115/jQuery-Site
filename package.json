@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@types/jquery": "^3.5.30",
+    "jquery": "^3.7.1",
+    "jquery-countdown": "^2.2.0"
+  }
+}
