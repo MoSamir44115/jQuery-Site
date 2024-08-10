@@ -68,16 +68,16 @@ $(".thespan").text(100-x <= 0? "Your Available Characters Finished" :100-x)
 
 
   $('#getting-startedhr').countdown('2543/8/12', function(event) {
-    $(this).html(event.strftime('%H'));
+    $(this).html(event.strftime('%H h'));
   });
 
   
   $('#getting-startedmin').countdown('2543/08/12', function(event) {
-    $(this).html(event.strftime('%M'));
+    $(this).html(event.strftime('%M m'));
   });
 
   
   $('#getting-startedsec').countdown('2543/08/12', function(event) {
-    $(this).html(event.strftime('%S'));
+    $(this).html(event.strftime('%S s'));
   });
 
